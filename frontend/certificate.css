@@ -1,0 +1,60 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 30px;
+}
+
+.certificate-container {
+  background-color: white;
+  border: 5px solid #004080;
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.certificate-container h1 {
+  color: #004080;
+  font-size: 36px;
+}
+
+.certificate-container h2 {
+  font-size: 30px;
+  margin: 20px 0;
+  color: #222;
+}
+
+.certificate-container h3 {
+  font-size: 26px;
+  margin: 15px 0;
+  color: #444;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #666;
+}
+
+.controls {
+  margin-top: 30px;
+}
+
+.controls button, .controls a {
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  text-decoration: none;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media print {
+  .controls {
+    display: none;
+  }
+}

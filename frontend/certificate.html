@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Completion Certificate</title>
+  <link rel="stylesheet" href="certificate.css">
+</head>
+<body>
+
+  <div class="certificate-container" id="certificate">
+    <h1>🎓 Certificate of Completion</h1>
+    <p>This is to certify that</p>
+    <h2 id="studentName">[Student Name]</h2>
+    <p>has successfully completed the course</p>
+    <h3 id="courseName">[Course Name]</h3>
+    <p>with outstanding performance</p>
+    <p class="footer">Issued on <span id="date"></span></p>
+  </div>
+
+  <div class="controls">
+    <button onclick="window.print()">🖨 Print / Download</button>
+    <a href="dashboard.html">Back to Dashboard</a>
+  </div>
+
+  <script src="certificate.js"></script>
+</body>
+</html>

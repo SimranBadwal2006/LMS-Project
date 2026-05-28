@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teacher Dashboard</title>
+  <link rel="stylesheet" href="teacher-dashboard.css" />
+</head>
+<body>
+
+<header>
+  <h1>Teacher Dashboard</h1>
+  <button onclick="logout()" style="float: right; margin-top: -35px; background:#e74c3c; color:white; border:none; padding:8px 12px; border-radius:4px;">Logout</button>
+</header>
+
+<div class="container">
+  <h2>Welcome, Teacher 👩‍🏫</h2>
+
+  <button onclick="location.href='add-course.html'">➕ Add New Course</button>
+
+  <!-- Search Bar -->
+  <input type="text" id="searchInput" placeholder="Search courses..." onkeyup="searchCourses()" style="padding: 8px; width: 50%; margin: 20px 0;" />
+
+  <h3>Your Courses:</h3>
+  <!-- Course List Container -->
+  <div class="course-list" id="courseList">
+    <!-- Courses will be injected here by JS -->
+  </div>
+</div>
+
+<script src="teacher-dashboard.js"></script>
+<script>
+  function logout() {
+    localStorage.removeItem("loggedInUser");
+    window.location.href = "login.html";
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Dashboard - My LMS</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>My LMS</h2>
+    <ul>
+      <li><a href="dashboard.html">🏠 Dashboard</a></li>
+      <li><a href="courses.html">📚 My Courses</a></li>
+      <li><a href="assignments.html">📝 Assignments</a></li>
+      <li><a href="progress.html">📊 Progress</a></li>
+      <li><a href="logout.html">🔒 Logout</a></li>
+
+    </ul>
+    
+  </div>
+
+  <div class="main-content">
+    <h1>Welcome, Student 👋</h1>
+    <p>Here's a quick overview of your learning progress.</p>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>HTML & CSS</h3>
+        <p>Progress: 70%</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>JavaScript Basics</h3>
+        <p>Progress: 40%</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 40%; background: orange;"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Python for Beginners</h3>
+        <p>Progress: 90%</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%; background: green;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

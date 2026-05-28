@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Courses - My LMS</title>
+  <link rel="stylesheet" href="courses.css">
+</head>
+<body>
+
+  <header>
+    <h1>📚 All Courses</h1>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="index.html">Home</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="courses-container">
+
+      <div class="course-card">
+        <h2>HTML & CSS</h2>
+        <p>Learn the basics of web design and layout.</p>
+        <button onclick="enroll('HTML & CSS')">Enroll</button>
+      </div>
+
+      <div class="course-card">
+        <h2>JavaScript Basics</h2>
+        <p>Start programming with JS, the web’s main language.</p>
+        <button onclick="enroll('JavaScript Basics')">Enroll</button>
+      </div>
+
+      <div class="course-card">
+        <h2>Python for Beginners</h2>
+        <p>Perfect for absolute beginners in coding.</p>
+        <button onclick="enroll('Python for Beginners')">Enroll</button>
+      </div>
+
+      <div class="course-card">
+        <h2>Data Structures</h2>
+        <p>Learn how to organize and store data efficiently.</p>
+        <button onclick="enroll('Data Structures')">Enroll</button>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="courses.js"></script>
+</body>
+</html>

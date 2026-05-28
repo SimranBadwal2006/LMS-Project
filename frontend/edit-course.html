@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Edit Course</title>
+  <link rel="stylesheet" href="add-course.css" />
+</head>
+<body>
+
+<header>
+  <h1>Edit Course</h1>
+</header>
+
+<div class="container">
+  <form id="editForm">
+    <label for="image">Course Image URL:</label>
+<input type="url" id="image" />
+
+    <label for="title">Course Title:</label>
+    <input type="text" id="title" required />
+
+    <label for="description">Course Description:</label>
+    <textarea id="description" required></textarea>
+
+    <button type="submit">Update Course</button>
+    <button type="button" onclick="goBack()">Cancel</button>
+  </form>
+</div>
+
+<script src="edit-course.js"></script>
+</body>
+</html>

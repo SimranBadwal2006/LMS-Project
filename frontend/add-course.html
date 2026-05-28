@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add New Course</title>
+  <link rel="stylesheet" href="add-course.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Add New Course</h2>
+    <form id="addCourseForm">
+      <label for="title">Course Title:</label>
+      <input type="text" id="title" required />
+
+      <label for="description">Course Description:</label>
+      <textarea id="description" required></textarea>
+
+      <label for="image">Course Image URL:</label>
+      <input type="text" id="image" required />
+
+      <button type="submit">Save Course</button>
+      <a href="teacher-dashboard.html" class="back-btn">Cancel</a>
+    </form>
+  </div>
+
+  <script src="add-course.js"></script>
+</body>
+</html>
