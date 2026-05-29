@@ -80,3 +80,13 @@ npm run server
 <img src="https://img.shields.io/badge/View%20Project-on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </p>
+
+---
+
+<h2 align="center">⭐ Thank You! ⭐</h2>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=Thank+You+for+Checking+Out+This+Project!;Hope+You+Liked+It+🚀;Keep+Coding+✨"/>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
